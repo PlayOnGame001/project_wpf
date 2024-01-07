@@ -7,7 +7,7 @@ using project_wpf.ViewModels.Base;
 
 namespace project_wpf.Models
 {
-    internal class Game : ViewModel
+    class Game : ViewModel
     {
         private string move = "X";
         public string Move

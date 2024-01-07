@@ -16,5 +16,7 @@ namespace project_wpf.Models
             set => Set(ref state, value);
         }
         public int I { get; set; }
+        public int J { get; set; }
+
     }
 }

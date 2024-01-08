@@ -4,4 +4,5 @@
     <v:String x:Key="Play1">Play</v:String>
     <v:String x:Key="Rus">Rus</v:String>
     <v:String x:Key="Eng">Eng</v:String>
+    <v:String x:Key="Label">5 in line</v:String>
 </ResourceDictionary>

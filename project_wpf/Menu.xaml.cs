@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace project_wpf
 {
-    /// <summary>
-    /// Interaction logic for Menu.xaml
-    /// </summary>
     public partial class Menu : Window
     {
         public static MainWindow Window;

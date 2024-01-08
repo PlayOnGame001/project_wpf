@@ -8,9 +8,6 @@
         ResizeMode="NoResize"
         Title="Menu" Height="400" Width="290" WindowStartupLocation="CenterScreen" Background="Gray">
     <Grid>
-        <Button>
-            <Image/>
-        </Button>
         <Label Content="{DynamicResource Label}" Margin="94,104,-94,-104" FontSize="20"/>
         <Button Content="{DynamicResource Play1}" x:Name="Play1" Click="But1_Click" Margin="94,142,94,197"/>
         <Button Content="{DynamicResource Eng}" x:Name="Eng" Click="But2_Click" Margin="10,192,165,147"/>

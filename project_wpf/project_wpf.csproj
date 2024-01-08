@@ -8,11 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Img\5inline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Page Include="App.xaml" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="View\Windows\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\5inline.png" />
   </ItemGroup>
 
 </Project>

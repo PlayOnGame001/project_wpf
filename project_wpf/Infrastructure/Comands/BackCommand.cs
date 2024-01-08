@@ -51,7 +51,7 @@ namespace project_wpf.Infrastructure.Comands
         {
             if (CheckForWinner(mwwm.F))
             {
-                MessageBox.Show($"{state} Выйграли! Поздравляю чемпион!");
+                MessageBox.Show($"{state} Win! Champion!");
 
                 var resetCommand = new ResetCommand();
                 resetCommand.ResetGame(mwwm, mainWindow);

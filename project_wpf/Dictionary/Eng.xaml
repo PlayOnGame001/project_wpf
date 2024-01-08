@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="Play1">Play</v:String>
+    <v:String x:Key="Rus">Rus</v:String>
+    <v:String x:Key="Eng">Eng</v:String>
+</ResourceDictionary>

@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="View\Windows\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Img\5inline.png" />
   </ItemGroup>
 

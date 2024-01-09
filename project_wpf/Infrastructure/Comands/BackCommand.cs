@@ -59,7 +59,7 @@ namespace project_wpf.Infrastructure.Comands
         }
         static bool CheckForWinner(ObservableCollection<ObservableCollection<Field>> f)
         {
-            for (int i=0; i < f.Count; i++) 
+            for (int i=0; i < f.Count; i++) //проверка по горизонтали 
             {   
                 for (int j=0; j <= f.Count - WIN_LENGTH; j++)
                 {
@@ -79,7 +79,7 @@ namespace project_wpf.Infrastructure.Comands
                     if (isWin) return true;
                 }
             }
-            for (int i = 0; i <= f.Count - WIN_LENGTH; i++)
+            for (int i = 0; i <= f.Count - WIN_LENGTH; i++) // по вертикали 
             {
                 for (int j = 0; j < f.Count; j++)
                 {
@@ -99,7 +99,7 @@ namespace project_wpf.Infrastructure.Comands
                     if (isWin) return true;
                 }
             }
-            for (int i = 0; i <= f.Count - WIN_LENGTH; i++)
+            for (int i = 0; i <= f.Count - WIN_LENGTH; i++)//диагональ с лева на право
             {
                 for (int j = 0; j <= f.Count - WIN_LENGTH; j++)
                 {
@@ -119,7 +119,7 @@ namespace project_wpf.Infrastructure.Comands
                     if (isWin) return true;
                 }
             }
-            for (int i = 0; i <= f.Count - WIN_LENGTH; i++)
+            for (int i = 0; i <= f.Count - WIN_LENGTH; i++)//диагонали право на лево
             {
                 for (int j = WIN_LENGTH - 1; j < f.Count; j++)
                 {

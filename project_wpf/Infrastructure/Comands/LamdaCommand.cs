@@ -9,7 +9,7 @@ namespace project_wpf.Infrastructure.Comands
 {
     internal class LamdaCommand : Command
     {
-        private readonly Action<object> _Execute;       //делигат 
+        private readonly Action<object> _Execute;       
         private readonly Func<object, bool> _CanExecute;
 
         public  LamdaCommand(Action<object> Execute, Func<object, bool> CanExecute = null)

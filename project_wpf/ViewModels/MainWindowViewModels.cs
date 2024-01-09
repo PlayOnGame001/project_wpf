@@ -36,15 +36,15 @@ namespace project_wpf.ViewModels
         public string Size
         {
             get => size.ToString();
-            set
+            set //логика
             {
                 var key = value.Trim('[').Trim(']').Split(',').FirstOrDefault();
 
                 if (int.TryParse(key, out int newSize))
                 {
                     Set(ref size, newSize);
-                    ResetDataTable();
-                    ResetF();
+                    ResetDataTable(); 
+                    ResetF();        
                 }
             }
         }

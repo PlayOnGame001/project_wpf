@@ -8,7 +8,7 @@
         ResizeMode="NoResize"
         Title="Menu" Height="400" Width="290" WindowStartupLocation="CenterScreen" Background="Gray">
     <Grid>
-        <Label Content="{DynamicResource Label}" Margin="94,104,-94,-104" FontSize="20"/>
+        <Label x:Name="label" Content="{DynamicResource Label}" Margin="94,104,10,10" FontSize="20" BorderBrush="{Binding AreAnyTouchesCaptured, ElementName=label, Mode=OneWay}" Foreground="Black"/>
         <Button Content="{DynamicResource Play1}" x:Name="Play1" Click="But1_Click" Margin="94,142,94,197"/>
         <Button Content="{DynamicResource Eng}" x:Name="Eng" Click="But2_Click" Margin="10,192,165,147"/>
         <Button Content="{DynamicResource Rus}" x:Name="Rus" Click="But3_Click" Margin="166,192,10,147"/>
